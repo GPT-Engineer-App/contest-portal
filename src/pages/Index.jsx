@@ -41,14 +41,14 @@ const Index = () => {
         </Box>
 
         {/* Contest Buttons */}
-        <Flex justifyContent="center" mt={4}>
-          <Button colorScheme="teal" mr={4} leftIcon={<FaPlus />}>
+        <VStack spacing={4} justifyContent="center" mt={4}>
+          <Button colorScheme="teal" w="full" leftIcon={<FaPlus />}>
             Enter Contest
           </Button>
-          <Button colorScheme="orange" leftIcon={<FaTrophy />}>
+          <Button colorScheme="orange" w="full" leftIcon={<FaTrophy />}>
             See Winning Contestants
           </Button>
-        </Flex>
+        </VStack>
 
         {/* Search Bar */}
         <InputGroup mt={4}>
